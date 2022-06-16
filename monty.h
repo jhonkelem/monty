@@ -63,9 +63,6 @@ void modop(stack_t **head, unsigned int count, char *line,
 	   FILE *file);
 void pcharop(stack_t **head, unsigned int count, char *line,
 	     FILE *file);
-void mty_op_stack(stack_t **stack, unsigned int line_number);
-
-void mty_op_queue(stack_t **stack, unsigned int line_number);
 
 void free_dlistint(stack_t *head);
 int delete_dnodeint_at_index(stack_t **head, unsigned int index);
